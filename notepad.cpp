@@ -156,7 +156,7 @@ void Notepad::on_actionSuperscript_triggered()
 {
     if (ui->textEdit->textCursor().hasSelection()) {
         QTextCharFormat format;
-        if (!ui->textEdit->textCursor().charFormat().font().bold())
+        if (ui->textEdit->textCursor().charFormat().verticalAlignment() != QTextCharFormat::AlignSuperScript)
             format.setVerticalAlignment(QTextCharFormat::AlignSuperScript);
         else
             format.setVerticalAlignment(QTextCharFormat::AlignNormal);
@@ -169,7 +169,7 @@ void Notepad::on_actionSubscript_triggered()
 {
     if (ui->textEdit->textCursor().hasSelection()) {
         QTextCharFormat format;
-        if (!ui->textEdit->textCursor().charFormat().font().bold())
+        if (ui->textEdit->textCursor().charFormat().verticalAlignment() != QTextCharFormat::AlignSubScript)
             format.setVerticalAlignment(QTextCharFormat::AlignSubScript);
         else
             format.setVerticalAlignment(QTextCharFormat::AlignNormal);
