@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>resources/save-24.png</file>
+        <file>resources/bold-24.png</file>
+        <file>resources/copy-24.png</file>
+        <file>resources/cut-24.png</file>
+        <file>resources/decrease-font-24.png</file>
+        <file>resources/font-24.png</file>
+        <file>resources/increase-font-24.png</file>
+        <file>resources/new-file-24.png</file>
+        <file>resources/open-file-24.png</file>
+        <file>resources/paste-24.png</file>
+        <file>resources/redo-24.png</file>
+        <file>resources/save-as-24.png</file>
+        <file>resources/subscript-24.png</file>
+        <file>resources/superscript-24.png</file>
+        <file>resources/undo-24.png</file>
+        <file>resources/info-32.png</file>
+    </qresource>
+</RCC>
