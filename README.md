@@ -1,7 +1,7 @@
 
 # Notepad
 
-This is a basic text editing app for making text Bold/Unbold.
+This is a basic text editing app made in Qt for making text Bold/Unbold.
 Features of this app are:
 
     1. Making text Bold.
